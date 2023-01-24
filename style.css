@@ -1,0 +1,408 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sticky {
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.backgroundimg {
+    width: 20%;
+}
+
+.backgroundimg img {
+    width: 60px;
+    margin-left: 25px;
+}
+
+.com-name {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.com-name, comp-name {
+    font-family: cursive;
+}
+
+.com-links {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.comp-links {
+    display: flex;
+}
+.links {
+    padding: 0px 20px 0px 20px;
+}
+
+.comp-links li {
+    list-style: none;
+}
+
+.comp-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.comp-links li a:hover {
+  color: rgb(23, 147, 255);
+}
+
+.background {
+    
+    background: rgba(0, 0, 0, 0.7) url("/images/back2.jpg");
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.mainbox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 50px 100px;
+}
+
+.intro {
+width: 70%;
+padding-right: 40px;
+}
+
+.wel {
+    font-family: math;
+    color: brown;
+}
+
+.video {
+    width: 30%;
+}
+
+.vid {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.para {
+    padding-top: 15px;
+}
+
+.btn {
+    padding: 3px 3px 3px 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.tabledetails {
+    width: 55%;
+    text-align: center;
+    margin-left: 96px;
+}
+
+.caption {
+    font-family: cursive;
+}
+
+.pro {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: x-large;
+    background: cadetblue;
+}
+
+.show-products {
+    display: flex;
+    background-color: aqua;
+    padding-bottom: 20px;
+}
+
+.pro-images {
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 30px;
+}
+
+.img1 {
+    width: 33%;
+    padding: 20px 0px 0px 90px;
+}
+
+.pr {
+    padding-left: 55px;
+}
+
+.op {
+    margin-left: 70px;
+    margin-top: 8px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+}
+
+.img1 a {
+ text-decoration: none;
+ color:rgb(0, 0, 0);
+}
+
+.m-about {
+    padding: 30px 100px 30px 100px;
+    font-size: 16px;
+    font-family: cursive;
+    color: brown;
+    background: antiquewhite;
+}
+
+.customer {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(47, 195, 177);
+    padding: 10px 10px;
+   }
+   .cus1 {
+
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 25%;
+    margin: 50px;
+    background: white;
+}
+.cus2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 25%;
+    margin: 50px;
+    background: white;
+}
+
+.cus3 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 25%;
+    margin: 50px;
+    background: white;
+   }
+   .cus {
+    background: #7d7d7d;
+    width: 100%;
+    display: flex;
+   }
+
+   .e-part {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: cadetblue;
+    padding-bottom: 20px;
+   }
+
+   .p-order {
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-left: 21px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 130px;
+    
+}
+
+.or {
+    padding: 20px 0px 20px 10px;
+}
+
+.contactus {
+    width: 25%;
+    margin-left: 370px;
+    margin-top: 30px;
+    line-height: 30px;
+    border: 2px solid black;
+    padding: 20px 0px 20px 15px;
+    border-radius: 30px;
+   }
+
+   .copy {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#717e7e;
+   }
+
+   @media only screen and (max-width:900px){
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backgroundimg {
+        display: none;
+    }
+
+    .com-name {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
+    }
+
+    .comp-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comp-links {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .table {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tabledetails {
+        margin: 0px;
+    }
+
+    .show-products {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .img1 {
+        padding: 30px;
+    }
+
+    .e-part {
+        flex-direction: column;
+    }
+    
+    .p-order {
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .contactus {
+        width: 100%;
+        margin: 0px;
+        margin-top: 4px;
+    }
+    }
+
+
+    @media only screen and (max-width:705px) {
+
+    .mainbox {
+        padding: 20px 15px 15px 15px;
+        }
+
+    .show-products {
+        flex-direction: column;
+        }
+
+    .cus {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .cus1 {
+        width: 100%;
+        margin: 15px;
+        }
+
+    .cus2 {
+        width: 100%;
+        margin: 15px; 
+        }
+
+    .cus3 {
+        width: 100%;
+        margin: 15px; 
+        }
+
+    .img1 {
+        padding: 0px;
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+        }
+        
+        .pr {
+            padding: 0px;
+        }
+
+        .m-about {
+            width: 100%;
+            padding: 12px;
+        }
+
+        .op {
+            margin: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    @media screen and (max-width:330px) and (min-width:450px) {
+        .background {
+            height:115vh;
+        }
+    }
+    
+    
+    
+
+    
+
+   
